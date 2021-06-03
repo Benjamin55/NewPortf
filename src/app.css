@@ -1,0 +1,38 @@
+:root {
+  --primary-white: #fff;
+  --blue: rgb(1, 186, 207);
+  --primary-dark: rgb(255, 255, 255, 0);
+}
+
+.logo {
+  width: 10.25rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+nav a.nav-link {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: var(--blue) !important;
+  border-bottom: 5px solid var(--primary-dark);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+  border-bottom: 4px solid var(--blue);
+}
